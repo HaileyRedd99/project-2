@@ -6,12 +6,11 @@ for (var i = 0; i < elements.length; i++) {
   //console.log(element);
  //element.style.setProperty('border', 'solid 1px red');
 
-  var r = Math.floor(Math.random()*255);
-  var g = Math.floor(Math.random()*255);
+  var r = Math.floor(Math.random()*30);
+  var g = Math.floor(Math.random()*100);
   var b = Math.floor(Math.random()*255);
-  var c = "rgb(" + r + "," + r + "," + r + ")"
+  var c = "rgb(" + r + "," + g + "," + b + ")"
 
   element.style.setProperty('background-color', c);
-
 
 }

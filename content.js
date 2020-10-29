@@ -19,5 +19,5 @@ var walker = document.createTreeWalker(html, NodeFilter.SHOW_TEXT)
 
 var node;
 while (node = walker.nextNode()) {
-  node.nodeValue = node.nodeValue.replace(/ridge/gi, 'dick');
+  node.nodeValue = node.nodeValue.replace(/theraputic/gi, 'abusive');
 }
